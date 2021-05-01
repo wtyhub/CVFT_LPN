@@ -18,7 +18,7 @@ def transfer_image(img, t):
 
 class InputData:
 
-    img_root = '../data/CVUSA/'
+    img_root = '../Data/CVUSA/'
 
 
     def __init__(self):

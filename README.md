@@ -25,14 +25,15 @@ Please put them under the director of "Model/" and then you can use them for tra
 ### Codes
 
 1. Training:
-	CVUSA: python train_cvusa_lpn.py
-	CVACT: python train_cvact_lpn.py
+	CVUSA: python train_cvusa_lpn.py --multi_loss
+	CVACT: python train_cvact_lpn.py --multi_loss
 
 2. Evaluation:
-	CVUSA: python test_cvusa.py
-	CVACT: python test_cvact.py
+	CVUSA: python test_cvusa.py --multi_loss
+	CVACT: python test_cvact.py --multi_loss
 
 
 ### Reference  
 [Optimal Feature Transport for Cross-View Image Geo-Localization](https://arxiv.org/pdf/1907.05021.pdf)
+[github](https://github.com/shiyujiao/cross_view_localization_CVFT.git)
 
