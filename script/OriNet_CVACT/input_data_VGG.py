@@ -9,7 +9,7 @@ class InputData:
     # the path of your CVACT dataset
 
     # img_root = '/home/wangtyu/ANU_data_small/'
-    img_root = '/home/wangtyu/datasets/CVACT/'
+    img_root = '../data/CVACT/'
     # yaw_pitch_grd = sio.loadmat('./CVACT_orientations/yaw_pitch_grd_CVACT.mat')
     # yaw_sat = sio.loadmat('./CVACT_orientations/yaw_radius_sat_CVACT.mat')
 
